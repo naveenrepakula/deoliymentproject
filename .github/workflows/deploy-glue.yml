@@ -16,7 +16,7 @@ permissions:
 env:
   AWS_REGION: ap-south-1
   SCRIPT_BUCKET: landing-zone-api-data
-  SCRIPT_KEY: glue-scripts/deploymentproject/ingestion.py
+  SCRIPT_KEY: glue-scripts/ingestion.py
 
 jobs:
   deploy:
