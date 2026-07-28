@@ -8,7 +8,7 @@ import io
 api_url = "https://jsonplaceholder.typicode.com/posts" 
 response = requests.get(api_url)
 data = response.json() # Convert API response to JSON [1]
-
+print("hello naveen")
 
 
 
