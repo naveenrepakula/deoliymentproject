@@ -2,7 +2,7 @@ import requests
 import pandas as pd
 import boto3
 import io
-
+print("naveen")
 # 1. Collect data from the API
 # In the tutorial, dummy API data is collected [1]
 api_url = "https://jsonplaceholder.typicode.com/posts" 
