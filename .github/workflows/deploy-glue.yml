@@ -44,4 +44,4 @@ jobs:
       - name: Upload Glue Script to S3
         run: |
           aws s3 cp ingestion.py \
-            "s3://${SCRIPT_BUCKET}/${SCRIPT_KEY}"
+            "s3://${SCRIPT_BUCKET}/${SCRIPT_KEY}".
