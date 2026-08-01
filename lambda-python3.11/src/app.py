@@ -4,6 +4,7 @@ import json
 
 
 def lambda_handler(event, context):
+    print("naveen")
     """Sample pure Lambda function
 
     Parameters
